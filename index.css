@@ -1,0 +1,58 @@
+body {
+    font-family: 'Cantora One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("trees.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(18, 12, 40);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgb(14, 88, 43);
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(41, 25, 100);
+}
+
+#increment-btn:hover {
+    background: rgb(95, 75, 178);
+    box-shadow: 3px 3px 3px black;
+}
+
+#save-btn {
+    background: rgb(75, 105, 194);
+}
+
+#save-btn:hover {
+    background: rgb(95, 132, 242);
+    box-shadow: 3px 3px 3px black;
+}
+
+#reset-btn {
+    background: rgb(147, 93, 56);
+}
+
+#reset-btn:hover {
+    background: rgb(190, 119, 73);
+    box-shadow: 3px 3px 3px black;
+}
